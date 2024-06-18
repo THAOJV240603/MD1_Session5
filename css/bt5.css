@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu-left{
+    background-color: rgb(218, 255, 223);
+    width: 300px;
+    height: 100vh;
+}
+
+.menu-left ul li{
+    border-bottom: 1px solid white;
+    padding: 15px 30px;
+    list-style: none;
+    background-color: aqua;
+}
+.menu-left ul li a{
+    text-decoration: none;
+}
+
+.menu-left ul li:last-child{
+    border: none;
+}
+
+.menu-left ul li:hover {
+    background-color: rgb(202, 224, 246);
+    margin-left: 30px;
+    width: 250px;
+}

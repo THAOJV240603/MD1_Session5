@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.square{
+    margin: 50px;
+    padding: 10px 10px;
+    background-color: #F2F8FE;
+    width: 350px;
+    height: 170px;
+}
+
+.anh{
+    background-color: #8CFBFD;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px;
+}
+
+.anh:hover{
+    background-color: #E36D52;
+    border-radius: 50%;
+    transition: 1s;
+
+}
